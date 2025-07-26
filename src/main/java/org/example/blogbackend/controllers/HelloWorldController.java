@@ -13,7 +13,7 @@ public class HelloWorldController {
     @GetMapping("")
     public HashMap<String, String> helloWorld() {
         HashMap<String, String> result = new HashMap<>();
-        result.put("hello", "world");
+        result.put("biip", "buup");
         return result;
     }
 }
